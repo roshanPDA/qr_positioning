@@ -40,6 +40,20 @@ h1 {
     width: 100%;
 }
 
+#btn {
+    cursor: pointer;
+    transition-duration: 0.4s;
+    padding: 4px 10px;
+    border: none;
+    box-shadow: 2px 2px #888888;
+}
+
+#btn:hover {
+    background-color: var(--theme);
+    color: white;
+    transform: scale(1.1);
+}
+
 #inventory {
     display: none;
     position: absolute;
