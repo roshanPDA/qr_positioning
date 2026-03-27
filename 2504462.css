@@ -39,3 +39,13 @@ h1 {
 #camera {
     width: 100%;
 }
+
+#inventory {
+    display: none;
+    position: absolute;
+    top: 440px;
+    left: 260px;
+    background-color: yellow;
+    padding: 10px;
+    border: 2px solid black;
+}
